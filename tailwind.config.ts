@@ -33,7 +33,11 @@ const config: Config = {
         'grey-inactive': '#B3B3B3',
         primary: '#FFB52E',
         secondary: '#0058F6',
-        teritary: '#282828',
+        tertiary: '#282828',
+      },
+      boxShadow: {
+        small: '0px 2px 4px 0px #28293D1A',
+        large: '0px 8px 16px 0px #60617033',
       },
     },
   },

@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="ua">
       <body className={montserrat.className}>
         <header>This is header</header>
-        <main className="container bg-primary header-1">{children}</main>
+        <main className="container">{children}</main>
         <footer>This is footer</footer>
       </body>
     </html>
