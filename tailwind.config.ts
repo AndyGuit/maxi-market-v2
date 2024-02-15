@@ -11,16 +11,18 @@ const config: Config = {
       screens: {
         sm: '375px',
         md: '768px',
-        lg: '1440px',
-        xl: '1920px',
+        lg: '1024px',
+        xl: '1440px',
+        '2xl': '1920px',
       },
       container: {
         center: true,
         screens: {
           sm: '343px',
           md: '688px',
-          lg: '1280px',
-          xl: '1520px',
+          lg: '988px',
+          xl: '1280px',
+          '2xl': '1520px',
         },
       },
       colors: {
