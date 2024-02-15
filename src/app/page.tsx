@@ -1,4 +1,4 @@
-import { IconAccount, IconSearch } from '@/components/Icons/Icons';
+import { IconAccount } from '@/components/Icons/Icons';
 import Button from '@/components/UI/Button';
 
 export default function Home() {
