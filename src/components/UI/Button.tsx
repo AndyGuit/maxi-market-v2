@@ -28,7 +28,7 @@ export default function Button(props: Props) {
       break;
     case 'header':
       styles =
-        'px-8 py-3 text-white text-center rounded button-typography transition-all hover:bg-white hover:text-tertiary active:shadow-large';
+        'button-header flex gap-2 items-center px-8 py-3 text-white text-center rounded button-typography transition-all hover:bg-white hover:text-tertiary active:shadow-large';
       break;
     default:
       break;

@@ -39,6 +39,9 @@ const config: Config = {
         small: '0px 2px 4px 0px #28293D1A',
         large: '0px 8px 16px 0px #60617033',
       },
+      variants: {
+        fill: ['hover', 'focus'],
+      },
     },
   },
   plugins: [],

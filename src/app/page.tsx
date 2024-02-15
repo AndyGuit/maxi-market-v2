@@ -1,3 +1,4 @@
+import { IconAccount, IconSearch } from '@/components/Icons/Icons';
 import Button from '@/components/UI/Button';
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div className="bg-secondary">
       <h1 className="header-1">maxi market</h1>
       <Button type="button" style="header">
+        <IconAccount />
         Увійти
       </Button>
     </div>
