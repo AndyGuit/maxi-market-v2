@@ -5,8 +5,7 @@ export default function Home() {
   return (
     <div className="bg-secondary">
       <h1 className="header-1">maxi market</h1>
-      <Button type="button" style="header">
-        <IconAccount />
+      <Button type="button" style="wide-secondary">
         Увійти
       </Button>
     </div>
