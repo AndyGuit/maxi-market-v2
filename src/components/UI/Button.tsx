@@ -12,23 +12,23 @@ export default function Button(props: Props) {
   switch (props.style) {
     case 'primary-input':
       styles =
-        'px-[calc(2rem-1.6px)] py-[calc(0.75rem-1.6px)] bg-primary text-center border-2 border-primary rounded-r button-typography transition-all hover:bg-white active:shadow-large';
+        'px-[calc(2rem-1.6px)] py-[calc(0.75rem-1.6px)] bg-primary text-center border-2 border-primary rounded-r button-typography transition-all hover:bg-white enabled:active:shadow-large disabled:bg-grey-inactive disabled:text-white disabled:border-grey-inactive';
       break;
     case 'primary-card':
       styles =
-        'px-[calc(2rem-1.6px)] py-[calc(0.5rem-1.6px)] bg-primary text-center border-2 border-primary rounded button-typography transition-all hover:bg-white active:shadow-large';
+        'px-[calc(2rem-1.6px)] py-[calc(0.5rem-1.6px)] bg-primary text-center border-2 border-primary rounded button-typography transition-all hover:bg-white enabled:active:shadow-large disabled:bg-grey-inactive disabled:text-white disabled:border-grey-inactive';
       break;
     case 'secondary':
       styles =
-        'px-[calc(2rem-1.6px)] py-[calc(0.75rem-1.6px)] bg-secondary text-white text-center border-2 border-secondary rounded-r button-typography transition-all hover:bg-transparent hover:text-secondary active:shadow-large';
+        'px-[calc(2rem-1.6px)] py-[calc(0.75rem-1.6px)] bg-secondary text-white text-center border-2 border-secondary rounded-r button-typography transition-all hover:bg-transparent hover:text-secondary enabled:active:shadow-large disabled:bg-grey-inactive disabled:text-white disabled:border-grey-inactive';
       break;
     case 'tertiary':
       styles =
-        'px-[calc(2rem-1.6px)] py-[calc(0.75rem-1.6px)] bg-tertiary text-white text-center border-2 border-tertiary rounded-r button-typography transition-all hover:bg-transparent hover:text-tertiary active:shadow-large';
+        'px-[calc(2rem-1.6px)] py-[calc(0.75rem-1.6px)] bg-tertiary text-white text-center border-2 border-tertiary rounded-r button-typography transition-all hover:bg-transparent hover:text-tertiary enabled:active:shadow-large disabled:bg-grey-inactive disabled:text-white disabled:border-grey-inactive';
       break;
     case 'header':
       styles =
-        'button-header flex gap-2 items-center px-8 py-3 text-white text-center rounded button-typography transition-all hover:bg-white hover:text-tertiary active:shadow-large';
+        'button-header flex gap-2 items-center px-8 py-3 text-white text-center rounded button-typography enabled:transition-all enabled:hover:bg-white enabled:hover:text-tertiary enabled:active:shadow-large disabled:bg-grey-inactive';
       break;
     default:
       break;
