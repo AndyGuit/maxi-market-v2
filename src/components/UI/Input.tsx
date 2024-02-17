@@ -12,8 +12,10 @@ type Props = {
 export default function Input(props: Props) {
   if (props.style === 'search') {
     return (
-      <div className="body-2 flex gap-2 bg-white text-tertiary bg-transparent h-[53px] p-4 border-2 border-grey-stroke rounded-l focus-within:border-tertiary">
-        <IconSearch />
+      <div className="body-2 flex gap-2 bg-white text-tertiary bg-transparent h-[53px] px-4 border-2 border-grey-stroke rounded-l focus-within:border-tertiary">
+        <div className="my-4">
+          <IconSearch />
+        </div>
         <input
           className="w-full outline-none"
           type={props.type}
@@ -25,9 +27,9 @@ export default function Input(props: Props) {
 
   if (props.style === 'subscribe') {
     return (
-      <div className="body-2 flex gap-2 bg-white text-tertiary bg-transparent h-[53px] p-4 border-2 border-grey-stroke rounded-l focus-within:border-tertiary">
+      <div className="body-2 flex gap-2 bg-white text-tertiary bg-transparent h-[53px] border-2 border-grey-stroke rounded-l focus-within:border-tertiary">
         <input
-          className="w-full outline-none"
+          className="w-full p-4 outline-none"
           type={props.type}
           placeholder={props.placeholder}
         />

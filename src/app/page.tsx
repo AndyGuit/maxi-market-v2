@@ -10,7 +10,7 @@ export default function Home() {
       <Button type="button" style="wide-secondary">
         Увійти
       </Button>
-      <Input type="text" style="subscribe" />
+      <Input type="text" style="search" />
     </div>
   );
 }
