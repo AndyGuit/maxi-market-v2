@@ -1,8 +1,8 @@
 export function IconSearch() {
   return (
     <svg
-      width="22"
-      height="22"
+      width="17.5"
+      height="17.5"
       viewBox="0 0 22 22"
       fill="#D6D6D6"
       xmlns="http://www.w3.org/2000/svg">

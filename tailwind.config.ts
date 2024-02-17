@@ -34,6 +34,8 @@ const config: Config = {
         primary: '#FFB52E',
         secondary: '#0058F6',
         tertiary: '#282828',
+        danger: '#FF0404',
+        success: '#04D800',
       },
       boxShadow: {
         small: '0px 2px 4px 0px #28293D1A',

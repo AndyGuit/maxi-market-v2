@@ -40,6 +40,12 @@
   @apply leading-normal;
 }
 
+.tab-typography {
+  @apply text-xs;
+  @apply font-light;
+  @apply leading-normal;
+}
+
 .link-typography,
 .caption-typography {
   @apply text-base;
