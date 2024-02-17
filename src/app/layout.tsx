@@ -1,4 +1,5 @@
 import Header from '@/components/layouts/Header';
+import PageWrapper from '@/components/layouts/PageWrapper';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import '../styles/globals.css';
@@ -16,11 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ua">
-      <body className={montserrat.className}>
-        <Header />
-        <main className="container">{children}</main>
-        <footer>This is footer</footer>
+    <html className="h-full" lang="ua">
+      <body className={montserrat.className + ' h-full'}>
+        <PageWrapper>
+          <Header />
+          <main className="container flex-auto">{children}</main>
+          <footer>This is footer</footer>
+        </PageWrapper>
       </body>
     </html>
   );
