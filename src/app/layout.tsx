@@ -1,3 +1,4 @@
+import Header from '@/components/layouts/Header';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import '../styles/globals.css';
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="ua">
       <body className={montserrat.className}>
-        <header>This is header</header>
+        <Header />
         <main className="container">{children}</main>
         <footer>This is footer</footer>
       </body>

@@ -19,7 +19,7 @@ export default function Button(props: Props) {
   switch (props.style) {
     case 'primary-input':
       styles =
-        'px-[calc(2rem-1.6px)] py-[calc(0.75rem-1.6px)] bg-primary text-center border-2 border-primary rounded-r button-typography transition-all hover:bg-white enabled:active:shadow-large disabled:bg-grey-inactive disabled:text-white disabled:border-grey-inactive';
+        'px-[calc(2rem-1.6px)] bg-primary text-center border-2 border-primary rounded-r button-typography transition-all hover:bg-white enabled:active:shadow-large disabled:bg-grey-inactive disabled:text-white disabled:border-grey-inactive';
       break;
     case 'primary-card':
       styles =
@@ -35,7 +35,7 @@ export default function Button(props: Props) {
       break;
     case 'header':
       styles =
-        'button-header flex gap-2 items-center px-8 py-3 text-white text-center rounded button-typography enabled:transition-all enabled:hover:bg-white enabled:hover:text-tertiary enabled:active:shadow-large disabled:bg-grey-inactive';
+        'button-header flex gap-2 items-center p-3 md:p-4 lg:px-8 lg:py-3 text-white text-center rounded button-typography enabled:transition-all enabled:hover:bg-white enabled:hover:text-tertiary enabled:active:shadow-large disabled:bg-grey-inactive';
       break;
     case 'wide-primary':
       styles =
