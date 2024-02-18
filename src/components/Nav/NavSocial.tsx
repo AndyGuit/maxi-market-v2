@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import { IconFacebook, IconInstagram, IconYoutube } from '../Icons/Icons';
 
-type Props = {};
-
-export default function NavSocial(props: Props) {
+export default function NavSocial() {
   return (
     <nav>
       <ul className="flex gap-9">

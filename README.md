@@ -8,7 +8,6 @@
 - add height to button component
 - ? how to make icons responsive
 - input mobile phone mask
-- move NAVBARS variable from Footer component file to globals.ts
 
 ## TODO designer
 
