@@ -1,3 +1,4 @@
+import Footer from '@/components/layouts/Footer';
 import Header from '@/components/layouts/Header';
 import PageWrapper from '@/components/layouts/PageWrapper';
 import type { Metadata } from 'next';
@@ -22,7 +23,7 @@ export default function RootLayout({
         <PageWrapper>
           <Header />
           <main className="container flex-auto">{children}</main>
-          <footer>This is footer</footer>
+          <Footer />
         </PageWrapper>
       </body>
     </html>
