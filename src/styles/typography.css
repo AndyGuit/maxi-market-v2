@@ -37,9 +37,17 @@
 }
 
 .body-1 {
-  @apply text-base;
-  @apply font-normal;
+  @apply text-sm;
+  @apply font-light;
   @apply leading-normal;
+}
+
+@screen md {
+  .body-1 {
+    @apply text-base;
+    @apply font-normal;
+    @apply leading-normal;
+  }
 }
 
 .body-2 {
