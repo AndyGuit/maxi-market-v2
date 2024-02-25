@@ -3,7 +3,15 @@ type Props = {
   onClick?: () => void;
   disabled?: boolean;
   type: 'button' | 'submit' | 'reset';
-  style: 'primary-input' | 'primary-card' | 'secondary' | 'tertiary' | 'header' | 'wide-primary' | 'wide-secondary';
+  style:
+    | 'primary-input'
+    | 'primary-card'
+    | 'secondary'
+    | 'tertiary'
+    | 'header'
+    | 'wide-primary'
+    | 'wide-secondary'
+    | 'favourite';
 };
 
 export default function Button(props: Props) {
@@ -38,6 +46,8 @@ export default function Button(props: Props) {
       styles =
         'px-[calc(2rem-1.6px)] py-[calc(0.5rem-1.6px)] w-full bg-white text-center border-2 border-primary rounded button-typography transition-all hover:bg-primary enabled:active:shadow-large';
       break;
+    case 'favourite':
+      styles = 'p-2 bg-white rounded';
     default:
       break;
   }

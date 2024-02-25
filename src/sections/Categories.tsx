@@ -9,7 +9,7 @@ type Props = {
 
 export default function Categories(props: Props) {
   return (
-    <section className='bg-grey-bg-1 py-10'>
+    <section className='bg-grey-bg-2 py-10'>
       <div className='container'>
         <h2 className='header-1 text-center mb-4'>Категорії товарів</h2>
         <CardsGrid>
