@@ -1,6 +1,6 @@
-import Footer from '@/components/layouts/Footer';
-import Header from '@/components/layouts/Header';
-import PageWrapper from '@/components/layouts/PageWrapper';
+import Footer from '@/layouts/Footer';
+import Header from '@/layouts/Header';
+import PageWrapper from '@/layouts/PageWrapper';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import '../styles/globals.css';

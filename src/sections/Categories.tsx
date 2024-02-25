@@ -1,5 +1,5 @@
 import CardCategory from '@/components/Cards/CardCategory';
-import CardsGrid from '@/components/layouts/CardsGrid';
+import CardsGrid from '@/layouts/CardsGrid';
 import Button from '@/components/UI/Button';
 import { Category } from '@/types/interfaces';
 

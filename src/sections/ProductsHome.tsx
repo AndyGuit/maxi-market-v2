@@ -1,5 +1,5 @@
 import CardProduct from '@/components/Cards/CardProduct';
-import CardsGrid from '@/components/layouts/CardsGrid';
+import CardsGrid from '@/layouts/CardsGrid';
 import { ProductCard } from '@/types/interfaces';
 
 type Props = {
