@@ -5,7 +5,7 @@ import Button from '../UI/Button';
 
 export default function CardProduct(props: ProductCard) {
   return (
-    <article className='border-[1px] flex flex-col border-grey-stroke rounded max-w-[343px] md:max-w-[213px] xl:max-w-[302px] 2xl:max-w-[362px]'>
+    <article className='border-[1px] flex flex-col border-grey-stroke rounded w-full min-w-[213px] max-w-[362px]'>
       <div className='h-[230px] overflow-hidden relative'>
         <div className='absolute z-10 right-2 top-2'>
           <Button style='favourite' type='button'>

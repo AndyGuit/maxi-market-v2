@@ -1,5 +1,5 @@
 import CardProduct from '@/components/Cards/CardProduct';
-import CardsGrid from '@/layouts/CardsGrid';
+import GridProductsCards from '@/layouts/GridProductsCards';
 import { ProductCard } from '@/types/interfaces';
 
 type Props = {
@@ -11,11 +11,11 @@ export default function ProductsHome(props: Props) {
     <section className='py-10 md:py-20'>
       <div className='container'>
         <h2 className='header-1 mb-4 text-center md:text-left md:mb-6'>Акційні товари</h2>
-        <CardsGrid>
+        <GridProductsCards>
           {props.products.map((card, i) => (
             <CardProduct key={i} {...card} />
           ))}
-        </CardsGrid>
+        </GridProductsCards>
       </div>
     </section>
   );

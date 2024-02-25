@@ -1,5 +1,5 @@
 import CardProduct from '@/components/Cards/CardProduct';
-import CardsGrid from '@/layouts/CardsGrid';
+import CardsGrid from '@/layouts/GridProductsCards';
 import { MOCK_CATEGORIES, MOCK_PRODUCT_CARDS } from '@/global/vars';
 import Categories from '@/sections/Categories';
 import ProductsHome from '@/sections/ProductsHome';
