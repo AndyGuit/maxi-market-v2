@@ -8,7 +8,7 @@ type Props = {
 
 export default function ProductsHome(props: Props) {
   return (
-    <section className='my-10 md:my-20'>
+    <section className='py-10 md:py-20'>
       <div className='container'>
         <h2 className='header-1 mb-4 text-center md:text-left md:mb-6'>Акційні товари</h2>
         <CardsGrid>

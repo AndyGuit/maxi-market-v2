@@ -9,9 +9,9 @@ type Props = {
 
 export default function Categories(props: Props) {
   return (
-    <section className='bg-grey-bg-2 py-10'>
+    <section className='bg-grey-bg-2 py-10 md:py-20'>
       <div className='container'>
-        <h2 className='header-1 text-center mb-4'>Категорії товарів</h2>
+        <h2 className='header-1 text-center mb-4 md:text-left md:mb-6'>Категорії товарів</h2>
         <CardsGrid>
           {props.categories.map((category, i) => (
             <CardCategory key={i} {...category} />
