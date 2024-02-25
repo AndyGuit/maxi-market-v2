@@ -1,11 +1,7 @@
+import { Category } from '@/types/interfaces';
 import Image from 'next/image';
 
-type Props = {
-  categoryName: string;
-  imgUrl: string;
-};
-
-export default function CardCategory(props: Props) {
+export default function CardCategory(props: Category) {
   return (
     <div className='p-4 max-w-36 sm:max-w-[163px] md:max-w-[213px] xl:max-w-[302px] 2xl:max-w-[362px] w-full rounded bg-white'>
       <div className='mb-4 overflow-hidden relative h-[100px] md:h-[155px] xl:h-[270px] '>
