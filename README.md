@@ -10,6 +10,7 @@
 - check typography styles for line height duplicates
 - fix warning in console on loading category images
 - wrap category card with Link tag
+- wrap 'show more' button in categories section into Link tag
 
 ## TODO designer
 

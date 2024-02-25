@@ -3,14 +3,7 @@ type Props = {
   onClick?: () => void;
   disabled?: boolean;
   type: 'button' | 'submit' | 'reset';
-  style:
-    | 'primary-input'
-    | 'primary-card'
-    | 'secondary'
-    | 'tertiary'
-    | 'header'
-    | 'wide-primary'
-    | 'wide-secondary';
+  style: 'primary-input' | 'primary-card' | 'secondary' | 'tertiary' | 'header' | 'wide-primary' | 'wide-secondary';
 };
 
 export default function Button(props: Props) {
@@ -27,7 +20,7 @@ export default function Button(props: Props) {
       break;
     case 'secondary':
       styles =
-        'px-[calc(2rem-1.6px)] py-[calc(0.75rem-1.6px)] bg-secondary text-white text-center border-2 border-secondary rounded-r button-typography transition-all hover:bg-transparent hover:text-secondary enabled:active:shadow-large disabled:bg-grey-inactive disabled:text-white disabled:border-grey-inactive';
+        'px-[calc(2rem-1.6px)] py-[calc(0.75rem-1.6px)] bg-secondary text-white text-center border-2 border-secondary rounded button-typography transition-all hover:bg-transparent hover:text-secondary enabled:active:shadow-large disabled:bg-grey-inactive disabled:text-white disabled:border-grey-inactive';
       break;
     case 'tertiary':
       styles =
