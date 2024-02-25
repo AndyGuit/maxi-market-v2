@@ -1,13 +1,15 @@
 # TODO
 
 - Setup prettier-tailwind-plugin
-- Move typography classes to utilities
 - ? center icon in header button
 - draw an arrow for slider in css, don't use svg icon
 - ? organize classes in button component (put same classes that all buttons use in styles variable, and with switch-case add classes that use specific button)
 - add height to button component
 - ? how to make icons responsive
 - input mobile phone mask
+- check typography styles for line height duplicates
+- fix warning in console on loading category images
+- wrap category card with Link tag
 
 ## TODO designer
 

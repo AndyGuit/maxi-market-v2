@@ -18,11 +18,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="h-full" lang="ua">
+    <html className='h-full' lang='ua'>
       <body className={montserrat.className + ' h-full'}>
         <PageWrapper>
           <Header />
-          <main className="container flex-auto">{children}</main>
+          <main className='flex-auto'>{children}</main>
           <Footer />
         </PageWrapper>
       </body>

@@ -1,10 +1,24 @@
 .header-1 {
-  @apply text-[2.5rem];
+  @apply text-2xl;
   @apply font-semibold;
   @apply leading-[1.2];
 }
 
+@screen xl {
+  .header-1 {
+    @apply text-[2.5rem];
+    @apply font-semibold;
+    @apply leading-[1.2];
+  }
+}
+
 .header-2 {
+  @apply text-2xl;
+  @apply font-semibold;
+  @apply leading-[1.2];
+}
+
+.header-3 {
   @apply text-2xl;
   @apply font-semibold;
   @apply leading-[1.2];
