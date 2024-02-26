@@ -31,7 +31,7 @@ export default function Input(props: Props) {
 
   return (
     <div className='body-2 text-tertiary'>
-      <label>{props.label}</label>
+      <label className='block mb-2'>{props.label}</label>
       <input
         className='w-full outline-none bg-transparent h-[53px] p-4 border-2 border-grey-stroke rounded focus:border-tertiary focus:placeholder:text-grey-stroke invalid:border-danger invalid:placeholder:text-danger'
         type={props.type}

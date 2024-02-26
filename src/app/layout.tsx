@@ -1,3 +1,4 @@
+import ModalWindow from '@/components/Modals/ModalWindow';
 import Footer from '@/layouts/Footer';
 import Header from '@/layouts/Header';
 import PageWrapper from '@/layouts/PageWrapper';
@@ -25,6 +26,9 @@ export default function RootLayout({
           <main className='flex-auto'>{children}</main>
           <Footer />
         </PageWrapper>
+        <div id='modal'>
+          <ModalWindow />
+        </div>
       </body>
     </html>
   );

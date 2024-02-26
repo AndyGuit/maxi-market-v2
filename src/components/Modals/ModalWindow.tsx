@@ -1,5 +1,20 @@
-type Props = {};
+'use client';
 
-export default function ModalWindow(props: Props) {
-  return <div>ModalWindow</div>;
+import { useSearchParams } from 'next/navigation';
+import Backdrop from './Backdrop';
+import Modal from './Modal';
+
+export default function ModalWindow() {
+  const searchParams = useSearchParams();
+  const modalContent = searchParams.get('modalContent');
+
+  if (modalContent) {
+    return (
+      <Backdrop>
+        <Modal />
+      </Backdrop>
+    );
+  }
+
+  return null;
 }

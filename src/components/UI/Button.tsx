@@ -53,7 +53,7 @@ export default function Button(props: Props) {
   }
 
   return (
-    <button type={props.type} className={styles} disabled={props.disabled}>
+    <button type={props.type} className={styles} onClick={props.onClick} disabled={props.disabled}>
       {props.children}
     </button>
   );
