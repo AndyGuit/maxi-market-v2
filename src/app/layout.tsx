@@ -4,6 +4,7 @@ import Header from '@/layouts/Header';
 import PageWrapper from '@/layouts/PageWrapper';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
+import { Suspense } from 'react';
 import '../styles/globals.css';
 
 const montserrat = Montserrat({ subsets: ['cyrillic'] });
@@ -26,9 +27,11 @@ export default function RootLayout({
           <main className='flex-auto'>{children}</main>
           <Footer />
         </PageWrapper>
-        <div id='modal'>
-          <ModalWindow />
-        </div>
+        <Suspense>
+          <div id='modal'>
+            <ModalWindow />
+          </div>
+        </Suspense>
       </body>
     </html>
   );
